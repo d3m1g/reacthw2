@@ -1,0 +1,141 @@
+.Notes {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.notes__container {
+  max-width: 720px;
+  padding: 30px 60px 60px 60px;
+  background-color: #b9cee6;
+  border-radius: 20px;
+}
+
+.notes_app-title {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-size: 36px;
+  color: #6e6ead;
+  font-weight: bold;
+}
+
+.AddNoteForm {
+  margin: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: #7171b3;
+}
+
+.add-note-form__form {
+  margin-bottom: 5px;
+}
+
+.control {
+  display: inline;
+  margin: 10px;
+}
+
+.control label {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px;
+  color: white;
+}
+
+.control button {
+  padding: 8px;
+  font-size: 18px;
+  background-color: #7171b3;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 2px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.control button:hover {
+  background-color: #50507f;
+}
+
+.control textarea {
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+}
+
+.NotesList {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Errors {
+  color: white;
+  background-color: #ed4a4a;
+  border-style: none;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.Note {
+  margin: 10px;
+  padding: 10px;
+  min-width: 160px;
+  min-height: 110px;
+  border-radius: 6px;
+  background-color: #4280c7;
+  text-align: center;
+}
+
+.note__title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.note__text {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  text-align: left;
+}
+
+.note__delete-button a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
+.note__delete-button a:hover {
+  color: red;
+  font-weight: bold;
+}
